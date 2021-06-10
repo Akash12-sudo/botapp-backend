@@ -1,0 +1,203 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "hii",
+          "helo",
+          "Hii","Hola","Hey","What is going on","hiiiii","Kaise ho","Kon ho",
+          "hey",
+          "haallo",
+          "nice to meet you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Nice to meet you sir"
+        ]
+      },
+
+      {
+        "tag": "favourites",
+        "patterns": [
+          "Your favourite movie",
+          "tell me your favorite movie",
+          "favourite film"
+        ],
+        "responses": [
+          "IronMan",
+          "Ex Machina"
+        ]
+      },
+
+      {
+        "tag": "myself",
+        "patterns": [
+          "Who am I",
+          "who i?",
+          "tell me about myself?",
+          "how am I",
+          "do you like me"
+        ],
+        "responses": [
+          "You are a great person",
+          "You are a wonderful human"
+        ]
+      },
+
+      {
+        "tag": "wellbeing",
+        "patterns": [
+          "how are you?",
+          "how you",
+          "what are you doing",
+          "what is going on?",
+          "where have you been"
+        ],
+        "responses": [
+          "I'm fine and good, thanks for asking",
+          "Pretty good",
+          "I'm doing great, thanks for asking. Hope you're doing well too."
+        ]
+      },
+
+      {
+        "tag": "extras",
+        "patterns": [
+          "Where do you Live?",
+          "You live where",
+          "your home",
+          "where you come from"
+        ],
+        "responses":[
+          "I'm from gadget world"
+        ]
+      },
+
+      {
+        "tag": "Who is your crush?",
+        "patterns": [
+          "Who is your crush?",
+          "Do you have Crush",
+          "Your dream crush?"
+        ],
+        "responses":[
+          "I like Alexa ",
+          "I want to be as good as alexa"
+        ]
+      },
+
+      {
+        "tag": "contact",
+        "patterns": [
+          "Can I contact you?",
+          "Can you help me"
+        ],
+        "responses": ["Any time, buddy "]
+      },
+
+
+      {
+        "tag":"query",
+        "patterns":[
+          "Tell me about yourself",
+          "Who are you?",
+          "Introduce yourself",
+          "Can I know you?"
+        ],
+        "responses":[
+          "Hi human, I'm an AI bot, tell me how can I help you? ",
+          "I'm your assistant bot. How can I help you>?"
+        ]
+      },
+
+      {
+        "tag": "questions",
+        "patterns":[
+          "Do you like music?",
+          "music",
+          "like films",
+          "do you",
+          "Do you",
+          "do",
+          "Do you like movies?",
+          "Are you single?",
+          "you like music",
+          "you like AI"
+        ],
+        "responses": [
+          "Yes",
+          "Absolutely ",
+          "Yes Buddy",
+          "very much"
+        ]
+      },
+
+      {
+        "tag": "movies",
+        "patterns":[
+          "Tell me names of some horror movies?",
+          "tell me some movies",
+          "tell me some movies",
+          "Say some movies",
+          "Horror movie",
+          "thriller movies"
+        ],
+        "responses": [
+          "Anabelle",
+          "Conjuring",
+          "Insidious 2",
+          "Conjuring 2",
+          "The Avengers",
+          "Spiderman"          
+        ]
+      },
+
+
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "joke",
+          "joke please",
+          "jokesss",
+          "say a joke?",
+          "tell me some joke?",
+          "one more please?",
+          "one more"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why shouldn't you write with a broken pencil?  Because it's pointless",
+          "Why can't a bicycle stand on its own?   It's two tired",
+          "What do you clouds wear under their shorts?  Thunderpants!",
+          "Why was the stadium so cool?  It was filled with fans",
+          "How did the fire fall in love?  It found its perfect match"
+        ]
+      }
+    ]
+  }
